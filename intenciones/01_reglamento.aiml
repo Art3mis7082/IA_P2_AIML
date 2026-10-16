@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>QUE JUEGOS INCLUYE EL TORNEO</pattern>
+    <template>El torneo incluye League of Legends, Rocket League, Overwatch 2, Clash Royale y Valorant.</template>
+  </category>
+
+  <category>
+    <pattern>CUALES SON LOS JUEGOS DEL TORNEO</pattern>
+    <template>Se juega League of Legends, Rocket League, Overwatch 2, Clash Royale y Valorant.</template>
+  </category>
+
+  <category>
+    <pattern>QUE ESTA PROHIBIDO</pattern>
+    <template>Está prohibido insultar, acosar, amenazar, hacer spam antideportivo, perder intencionalmente, usar cuentas para evadir un ban o modificar el código del juego.</template>
+  </category>
+
+  <category>
+    <pattern>DIME LAS REGLAS DE CONDUCTA</pattern>
+    <template><srai>QUE ESTA PROHIBIDO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUE SE CONSIDERA TRAMPA</pattern>
+    <template>Se considera trampa evadir un ban mediante smurfing, perder intencionalmente, hackear o modificar el código del juego.</template>
+  </category>
+
+  <category>
+    <pattern>QUE PASA SI HAGO TRAMPA</pattern>
+    <template>La trampa puede provocar la descalificación del jugador y la prohibición de participar en futuros torneos del comité organizador.</template>
+  </category>
+
+  <category>
+    <pattern>COMO FUNCIONAN LAS FALTAS</pattern>
+    <template>Una o dos faltas producen tarjeta amarilla. Con tres o más faltas se aplica tarjeta roja, que impide jugar el siguiente enfrentamiento. Tres tarjetas rojas producen tarjeta negra y descalificación.</template>
+  </category>
+
+  <category>
+    <pattern>QUE ES UNA TARJETA AMARILLA</pattern>
+    <template>La tarjeta amarilla indica que el jugador acumula una o dos faltas. Recibe una notificación, pero no una suspensión inmediata.</template>
+  </category>
+
+  <category>
+    <pattern>QUE ES UNA TARJETA ROJA</pattern>
+    <template>La tarjeta roja se aplica con tres o más faltas acumuladas. El jugador termina la partida actual, pero no puede jugar el siguiente enfrentamiento.</template>
+  </category>
+
+  <category>
+    <pattern>QUE ES UNA TARJETA NEGRA</pattern>
+    <template>La tarjeta negra se aplica cuando un jugador acumula tres tarjetas rojas y causa su descalificación del torneo.</template>
+  </category>
+
+  <category>
+    <pattern>PUEDO USAR DOS CUENTAS</pattern>
+    <template>No. Cada jugador debe competir con la cuenta registrada y, si tiene varias, debe registrar la de mayor nivel cuando el juego lo permita.</template>
+  </category>
+
+  <category>
+    <pattern>PUEDO ESTAR EN DOS EQUIPOS</pattern>
+    <template>Solo puedes participar en equipos de juegos diferentes, por ejemplo, uno de League of Legends y otro de Valorant.</template>
+  </category>
+
+  <category>
+    <pattern>LAS CUENTAS DEBEN SER PUBLICAS</pattern>
+    <template>Sí. El perfil debe ser visible para verificar la información del registro, incluido el rango del jugador.</template>
+  </category>
+
+  <category>
+    <pattern>QUIEN ES EL CAPITAN</pattern>
+    <template>El capitán es la persona encargada de comunicarse directamente con el comité organizador y de mantener informado a su equipo.</template>
+  </category>
+
+  <category>
+    <pattern>QUE HACE EL COACH</pattern>
+    <template>El coach puede comunicarse con el equipo entre rondas, asumir la comunicación con el comité y estar presente durante las partidas, pero no puede jugar.</template>
+  </category>
+</aiml>

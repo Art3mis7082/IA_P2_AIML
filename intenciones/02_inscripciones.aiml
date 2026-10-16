@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>CUANDO ABRE EL REGISTRO</pattern>
+    <template>El registro abre el 18 de agosto de 2026 a las 00:00, hora CDMX.</template>
+  </category>
+
+  <category>
+    <pattern>CUANDO CIERRA EL REGISTRO</pattern>
+    <template>El registro cierra el 3 de septiembre de 2026 a las 23:59, hora CDMX.</template>
+  </category>
+
+  <category>
+    <pattern>CUANDO ES EL REGISTRO</pattern>
+    <template>El registro abre el 18 de agosto de 2026 y cierra el 3 de septiembre de 2026 a las 23:59, hora CDMX.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTO CUESTA LA INSCRIPCION</pattern>
+    <template>La inscripción al torneo es totalmente gratuita.</template>
+  </category>
+
+  <category>
+    <pattern>COMO PUEDO INSCRIBIRME</pattern>
+    <template>Puedes inscribirte de forma individual o grupal mediante el formulario de registro del torneo. Debes registrarte por separado para cada juego.</template>
+  </category>
+
+  <category>
+    <pattern>PUEDO INSCRIBIRME SOLO</pattern>
+    <template>Sí. Los jugadores individuales pueden ser asignados a un equipo según su rol y nivel de juego.</template>
+  </category>
+
+  <category>
+    <pattern>PUEDO INSCRIBIRME CON MIS AMIGOS</pattern>
+    <template>Sí. Se aceptan registros grupales de dos o más personas, aunque el comité puede completar el equipo con jugadores individuales.</template>
+  </category>
+
+  <category>
+    <pattern>QUIENES PUEDEN PARTICIPAR</pattern>
+    <template>Pueden participar estudiantes, exalumnos y jugadores externos, respetando los requisitos universitarios de cada categoría.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS EQUIPOS PUEDEN REGISTRARSE</pattern>
+    <template>Hay un límite máximo de 36 equipos o jugadores individuales por categoría.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS UNIVERSITARIOS NECESITA UN EQUIPO</pattern>
+    <template>En individuales el jugador debe ser universitario; en duplas debe haber uno; en equipos de 3, un jugador principal; y en equipos de 4 o más, la mitad redondeada hacia abajo de los jugadores principales.</template>
+  </category>
+
+  <category>
+    <pattern>SE PUEDE CAMBIAR LA LISTA DE JUGADORES</pattern>
+    <template>Durante la fase clasificatoria se permiten cambios notificando al comité. Después solo se permiten por sanciones, pérdida de jugadores o falta de integrantes para disputar el siguiente enfrentamiento.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS SUPLENTES PUEDE TENER UN EQUIPO</pattern>
+    <template>Las duplas pueden tener un suplente, los equipos de 3 hasta dos y los equipos de 4 o más tienen una cantidad de suplentes calculada según su tamaño.</template>
+  </category>
+</aiml>

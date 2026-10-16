@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>CUANTOS JUGADORES TIENE LEAGUE OF LEGENDS</pattern>
+    <template>League of Legends se juega con equipos de 5 integrantes.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS JUGADORES TIENE ROCKET LEAGUE</pattern>
+    <template>Rocket League se juega con equipos de 3 integrantes. También existe una modalidad flash individual.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS JUGADORES TIENE OVERWATCH 2</pattern>
+    <template>Overwatch 2 se juega con equipos de 5 integrantes.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS JUGADORES TIENE VALORANT</pattern>
+    <template>Valorant se juega con equipos de 5 integrantes.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS JUGADORES TIENE CLASH ROYALE</pattern>
+    <template>Clash Royale es una categoría individual.</template>
+  </category>
+
+  <category>
+    <pattern>COMO SE ELIGEN LOS MAPAS DE OVERWATCH</pattern>
+    <template>Los mapas de Overwatch 2 se seleccionan de un pool con al menos tres modos diferentes. El pool se anuncia junto con los horarios.</template>
+  </category>
+
+  <category>
+    <pattern>COMO SE ELIGEN LOS MAPAS DE VALORANT</pattern>
+    <template>Se realiza un sistema de bloqueos y elecciones entre los equipos. La lista de mapas incluye Ascent, Bind, Breeze, Icebox, Lotus, Split y Sunset, sin repetir mapas.</template>
+  </category>
+
+  <category>
+    <pattern>QUE MAPAS TIENE VALORANT</pattern>
+    <template>Los mapas son Ascent, Bind, Breeze, Icebox, Lotus, Split y Sunset.</template>
+  </category>
+
+  <category>
+    <pattern>COMO SE JUEGA ROCKET LEAGUE</pattern>
+    <template>Las partidas de Rocket League duran hasta 5 minutos, tienen un máximo de 7 goles y cuentan con tiempo extra infinito.</template>
+  </category>
+
+  <category>
+    <pattern>SE PUEDE JUGAR EN CONSOLA</pattern>
+    <template>Sí. Los juegos que admiten varias plataformas pueden jugarse desde PC o consola.</template>
+  </category>
+
+  <category>
+    <pattern>SE PUEDE CAMBIAR EL COLOR EN ROCKET LEAGUE</pattern>
+    <template>Sí. Los equipos pueden solicitar un esquema de colores para sus partidas de Rocket League.</template>
+  </category>
+</aiml>

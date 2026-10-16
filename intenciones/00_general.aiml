@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>HOLA</pattern>
+    <template>
+      <random>
+        <li>¡Hola! Puedo responder preguntas sobre el reglamento, las inscripciones y los juegos de EsportsFQ .</li>
+        <li>¡Qué gusto leerte! Pregúntame sobre el torneo de EsportsFQ.</li>
+        <li>¡Hola! Estoy listo para ayudarte con las dudas del torneo.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COMO TE LLAMAS</pattern>
+    <template>Soy el asistente virtual de EsportsFQ, creado con Python y AIML.</template>
+  </category>
+
+  <category>
+    <pattern>QUE PUEDO PREGUNTARTE</pattern>
+    <template>Puedes preguntarme sobre juegos, registro, equipos, sanciones, partidas, pausas, premios y uso de datos personales.</template>
+  </category>
+
+  <category>
+    <pattern>MI NICKNAME ES *</pattern>
+    <template><set name="nickname"><star/></set>, guardaré tu nickname para esta conversación.</template>
+  </category>
+
+  <category>
+    <pattern>MI NAMETAG ES *</pattern>
+    <template><set name="nickname"><star/></set>, guardaré tu nametag para esta conversación.</template>
+  </category>
+
+  <category>
+    <pattern>MI NOMBRE EN EL JUEGO ES *</pattern>
+    <template><set name="nickname"><star/></set>, guardaré tu nombre dentro del juego para esta conversación.</template>
+  </category>
+
+  <category>
+    <pattern>CUAL ES MI NICKNAME</pattern>
+    <template>Tu nickname es <get name="nickname"/>.</template>
+  </category>
+
+  <category>
+    <pattern>CUAL ES MI NAMETAG</pattern>
+    <template>Tu nametag es <get name="nickname"/>.</template>
+  </category>
+
+  <category>
+    <pattern>CUAL ES MI NOMBRE EN EL JUEGO</pattern>
+    <template>Tu nombre dentro del juego es <get name="nickname"/>.</template>
+  </category>
+
+  <category>
+    <pattern>QUIERO REGISTRARME</pattern>
+    <template><set name="registro">SI</set> Puedes preguntarme cómo realizar la inscripción.</template>
+  </category>
+
+  <category>
+    <pattern>ESTOY REGISTRADO</pattern>
+    <template>
+      <condition name="registro">
+        <li value="SI">Sí, me indicaste que quieres registrarte.</li>
+        <li value="NO">Todavía no has indicado que quieres registrarte.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUIERES CONSULTAR EL REGLAMENTO</pattern>
+    <template>QUIERES CONSULTAR EL REGLAMENTO</template>
+  </category>
+
+  <category>
+    <pattern>SI</pattern>
+    <that>QUIERES CONSULTAR EL REGLAMENTO</that>
+    <template>Puedes preguntarme por las reglas de convivencia, las sanciones, las inscripciones o el formato del torneo.</template>
+  </category>
+
+  <category>
+    <pattern>REGLAMENTO</pattern>
+    <template><srai>QUE ESTA PROHIBIDO</srai></template>
+  </category>
+
+  <category>
+    <pattern>BUSCO _</pattern>
+    <template>Puedo ayudarte a buscar información sobre el reglamento, las inscripciones o los juegos del torneo.</template>
+  </category>
+
+  <category>
+    <pattern>GRACIAS</pattern>
+    <template>Con gusto. Estoy aquí para ayudarte con la información del torneo.</template>
+  </category>
+
+  <category>
+    <pattern>ME GUSTA EL *</pattern>
+    <template>¡Qué interesante! A muchos jugadores les gusta el <star/>.</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>Lo siento, no encontré una respuesta para esa pregunta. Puedes preguntar sobre el registro, los equipos, las sanciones o alguno de los juegos del torneo.</template>
+  </category>
+</aiml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>COMO ES EL FORMATO DEL TORNEO</pattern>
+    <template>Primero hay una fase clasificatoria por grupos y después una fase final de eliminación simple o doble, según la cantidad de equipos.</template>
+  </category>
+
+  <category>
+    <pattern>COMO SE DESEMPATA UN GRUPO</pattern>
+    <template>Se consideran las victorias, después las derrotas, luego la puntuación individual del juego y finalmente una partida adicional de desempate.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS JUEGOS TIENE CADA PARTIDA</pattern>
+    <template>En general, los enfrentamientos son al mejor de 3. Las finales son al mejor de 5, excepto Rocket League, cuya final es al mejor de 7.</template>
+  </category>
+
+  <category>
+    <pattern>SE PUEDEN HACER PAUSAS</pattern>
+    <template>Sí, por problemas técnicos. League of Legends permite hasta 12 minutos; Overwatch 2 y Valorant hasta 10. Rocket League y Clash Royale no permiten pausas durante el enfrentamiento.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTO TIEMPO TENGO PARA LLEGAR</pattern>
+    <template>La tolerancia inicial es de 10 minutos para League of Legends, Overwatch 2, Valorant y Clash Royale, y de 5 minutos para Rocket League. Cada juego puede tener una tolerancia adicional.</template>
+  </category>
+
+  <category>
+    <pattern>QUE PASA SI LLEGO TARDE</pattern>
+    <template>Después de la tolerancia y la sanción adicional, puede declararse la victoria por default para el equipo presente. Si ninguno está presente, ambos reciben una derrota.</template>
+  </category>
+
+  <category>
+    <pattern>SE PUEDEN REAGENDAR LAS PARTIDAS</pattern>
+    <template>Sí. El aviso debe hacerse con 24 horas de anticipación, el otro equipo debe estar de acuerdo y normalmente se permiten hasta dos cambios.</template>
+  </category>
+
+  <category>
+    <pattern>DONDE SE COMUNICAN LOS EQUIPOS</pattern>
+    <template>La comunicación se realiza principalmente por Discord, correo electrónico y WhatsApp.</template>
+  </category>
+
+  <category>
+    <pattern>SE TRANSMITEN LAS PARTIDAS</pattern>
+    <template>Sí. Las partidas se transmitirán en el Twitch oficial de Volperix Esports. Para transmitir por cuenta propia se necesita autorización del comité.</template>
+  </category>
+
+  <category>
+    <pattern>QUE PREMIO HAY</pattern>
+    <template>Se entregan reconocimientos a los tres primeros lugares y a un MVP. El capitán del equipo ganador recibe un premio de 50 pesos mexicanos.</template>
+  </category>
+</aiml>

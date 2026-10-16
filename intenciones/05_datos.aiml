@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>QUE DATOS SOLICITAN</pattern>
+    <template>Se solicitan nombre o apodo, usuario de Discord, teléfono, correo, rango, usuario del juego, roles y escuela o carrera.</template>
+  </category>
+
+  <category>
+    <pattern>COMO USAN MIS DATOS</pattern>
+    <template>Se usan para identificar jugadores, formar equipos, comunicarse, organizar partidas, generar reconocimientos y verificar los requisitos universitarios.</template>
+  </category>
+
+  <category>
+    <pattern>PARA QUE USAN MI USUARIO DE DISCORD</pattern>
+    <template>Se utiliza para verificar tu identidad durante el torneo y asignarte roles dentro del servidor.</template>
+  </category>
+
+  <category>
+    <pattern>PARA QUE USAN MI CORREO Y TELEFONO</pattern>
+    <template>Se utilizan para contactar a capitanes y jugadores individuales, informar asignaciones y organizar chats de comunicación.</template>
+  </category>
+
+  <category>
+    <pattern>QUE PASA SI SOY MENOR DE EDAD</pattern>
+    <template>Necesitas una carta firmada por tu madre, padre o tutor. Además, los menores no pueden participar en las entrevistas del torneo.</template>
+  </category>
+
+  <category>
+    <pattern>PUEDO EJERCER MIS DERECHOS ARCO</pattern>
+    <template>Sí. El documento indica el correo esportsfq.contacto@gmail.com para ejercer los derechos de acceso, rectificación, cancelación y oposición.</template>
+  </category>
+</aiml>
