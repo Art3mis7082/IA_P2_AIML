@@ -1,9 +1,9 @@
 # VolpeBot AIML
 
-Autor: Beatriz Almaraz Garcia
-Materia: Inteligencia Artificial
-Profesor: Dr. José Fidel Urquiza Yllescas
-Semestre 2027-1
+- Autor: Beatriz Almaraz Garcia
+- Materia: Inteligencia Artificial
+- Profesor: Dr. José Fidel Urquiza Yllescas
+- Semestre 2027-1
 
 Chatbot sencillo desarrollado con Python y AIML. El programa tiene como fin, responder dudas frecuentes sobre el reglamento del torneo de EsportsFQ, de Volperix Esports Club, para ello creamos una carpeta de intenciones.
 
