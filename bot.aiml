@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  
+  <category>
+    <pattern>HOLA</pattern>
+    <template>¡Hola! ¿En qué puedo ayudarte hoy?</template>
+  </category>
+  
+  <category>
+    <pattern>COMO TE LLAMAS</pattern>
+    <template>Soy un bot conversacional sencillo creado con AIML y Python.</template>
+  </category>
+  
+  <category>
+    <pattern>ME GUSTA EL *</pattern>
+    <template>¡Qué interesante! A muchos humanos les gusta el <star/>.</template>
+  </category>
+
+  <category>
+    <pattern>QUE JUEGOS INCLUYE EL TORNEO</pattern>
+    <template>El torneo incluye League of Legends, Rocket League, Overwatch 2, Clash Royale y Valorant.</template>
+  </category>
+
+  <category>
+    <pattern>CUALES SON LOS JUEGOS DEL TORNEO</pattern>
+    <template>Se juega League of Legends, Rocket League, Overwatch 2, Clash Royale y Valorant.</template>
+  </category>
+
+  <category>
+    <pattern>CUANDO ES EL REGISTRO</pattern>
+    <template>El registro abre el 18 de agosto de 2026 y cierra el 3 de septiembre de 2026 a las 23:59, hora CDMX.</template>
+  </category>
+
+  <category>
+    <pattern>CUANDO ABRE EL REGISTRO</pattern>
+    <template>El registro abre el 18 de agosto de 2026 a las 00:00, hora CDMX.</template>
+  </category>
+
+  <category>
+    <pattern>CUANDO CIERRA EL REGISTRO</pattern>
+    <template>El registro cierra el 3 de septiembre de 2026 a las 23:59, hora CDMX.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTO CUESTA LA INSCRIPCION</pattern>
+    <template>La inscripción al torneo es totalmente gratuita.</template>
+  </category>
+
+  <category>
+    <pattern>COMO PUEDO INSCRIBIRME</pattern>
+    <template>Puedes inscribirte de forma individual o grupal mediante el formulario de registro del torneo.</template>
+  </category>
+
+  <category>
+    <pattern>PUEDO INSCRIBIRME SOLO</pattern>
+    <template>Sí. Los jugadores individuales pueden ser asignados a un equipo según su rol y nivel de juego.</template>
+  </category>
+
+  <category>
+    <pattern>QUIENES PUEDEN PARTICIPAR</pattern>
+    <template>Pueden participar estudiantes, exalumnos y jugadores externos, respetando los requisitos de cada categoría.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS EQUIPOS PUEDEN REGISTRARSE</pattern>
+    <template>Hay un límite máximo de 36 equipos o jugadores individuales por categoría.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS JUGADORES TIENE UN EQUIPO</pattern>
+    <template>Depende del juego: League of Legends, Overwatch 2 y Valorant usan equipos de 5; Rocket League usa equipos de 3; Clash Royale es individual.</template>
+  </category>
+
+  <category>
+    <pattern>SE PERMITEN SUPLENTES</pattern>
+    <template>Sí. La cantidad depende del tamaño del equipo: las duplas tienen un suplente, los equipos de 3 hasta dos y los equipos de 4 o más tienen suplentes según su tamaño.</template>
+  </category>
+
+  <category>
+    <pattern>QUE ESTA PROHIBIDO</pattern>
+    <template>Está prohibido insultar, acosar, hacer trampa, usar cuentas alternativas para evadir sanciones, perder intencionalmente o modificar el código del juego.</template>
+  </category>
+
+  <category>
+    <pattern>QUE PASA SI HAGO TRAMPA</pattern>
+    <template>La trampa puede causar la descalificación del jugador y la prohibición de participar en futuros torneos del comité organizador.</template>
+  </category>
+
+  <category>
+    <pattern>COMO FUNCIONAN LAS FALTAS</pattern>
+    <template>Una o dos faltas producen tarjeta amarilla. Con tres o más faltas se aplica tarjeta roja y el jugador no participa en el siguiente enfrentamiento. Tres tarjetas rojas producen tarjeta negra y descalificación.</template>
+  </category>
+
+  <category>
+    <pattern>COMO ES EL FORMATO DEL TORNEO</pattern>
+    <template>Primero hay una fase de grupos y después una fase final de eliminación simple o doble, según la cantidad de equipos.</template>
+  </category>
+
+  <category>
+    <pattern>CUANTOS JUEGOS TIENE CADA PARTIDA</pattern>
+    <template>En general, los enfrentamientos son al mejor de 3. Las finales son al mejor de 5, excepto Rocket League, cuya final es al mejor de 7.</template>
+  </category>
+
+  <category>
+    <pattern>SE PUEDEN HACER PAUSAS</pattern>
+    <template>Sí, por problemas técnicos. League of Legends permite hasta 12 minutos; Overwatch 2 y Valorant hasta 10. Rocket League y Clash Royale no permiten pausas durante el enfrentamiento.</template>
+  </category>
+
+  <category>
+    <pattern>DONDE SE COMUNICAN LOS EQUIPOS</pattern>
+    <template>La comunicación se realiza principalmente por Discord, correo electrónico y WhatsApp.</template>
+  </category>
+
+  <category>
+    <pattern>SE TRANSMITEN LAS PARTIDAS</pattern>
+    <template>Sí. Las partidas se transmitirán en el Twitch oficial de Volperix Esports. Para transmitir por cuenta propia se necesita autorización del comité.</template>
+  </category>
+
+  <category>
+    <pattern>QUE PREMIO HAY</pattern>
+    <template>Se entregan reconocimientos a los tres primeros lugares y a un MVP. El capitán del equipo ganador recibe un premio de 50 pesos mexicanos.</template>
+  </category>
+
+  <category>
+    <pattern>QUE DATOS SOLICITAN</pattern>
+    <template>Se solicitan nombre o apodo, Discord, teléfono, correo, rango, usuario del juego, roles y escuela o carrera.</template>
+  </category>
+
+  <category>
+    <pattern>COMO USAN MIS DATOS</pattern>
+    <template>Se usan para identificar jugadores, formar equipos, comunicarse, organizar partidas, generar reconocimientos y verificar los requisitos universitarios.</template>
+  </category>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>Lo siento, aún soy un bot muy sencillo y no entiendo eso. ¿Podrías decirlo de otra forma?</template>
+  </category>
+  
+</aiml>
